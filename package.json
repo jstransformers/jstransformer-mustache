@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-mustache",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transform Mustache templates into HTML.",
   "keywords": [
     "jstransformer",
