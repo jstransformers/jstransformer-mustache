@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.3: March 29th, 2015
+
+- Use `'html'` as output format
+
 ## v0.0.2: February 18th, 2015
 
 - Remove incorrectly implemented `render` function and use `compile`
