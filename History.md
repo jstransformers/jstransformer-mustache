@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.4: March 29th, 2015
+
+- Update mustache to 2.0.0
+
 ## v0.0.3: March 29th, 2015
 
 - Use `'html'` as output format
