@@ -1,29 +1,24 @@
 {
   "name": "jstransformer-mustache",
-  "version": "0.0.4",
-  "description": "Transform Mustache templates into HTML.",
+  "version": "0.1.0",
+  "description": "Mustache.js support for JSTransformers.",
   "keywords": [
-    "jstransformer",
-    "mustache"
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {
     "mustache": "~2.0.0"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "istanbul": "^0.3.14",
+    "testit": "^2.0.2"
   },
   "scripts": {
     "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "istanbul cover test"
   },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE",
-    "History.md"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-mustache.git"
