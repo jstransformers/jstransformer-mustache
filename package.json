@@ -1,33 +1,30 @@
 {
   "name": "jstransformer-mustache",
-  "version": "0.0.4",
-  "description": "Transform Mustache templates into HTML.",
+  "version": "0.1.0",
+  "description": "Mustache.js support for JSTransformers.",
   "keywords": [
-    "jstransformer",
-    "mustache"
+    "jstransformer"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {
-    "mustache": "~2.0.0"
+    "mustache": "^2.1.2"
   },
   "devDependencies": {
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.5"
+    "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "node test",
-    "coverage": "istanbul cover test",
-    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "test-jstransformer",
+    "coverage": "test-jstransformer coverage"
   },
-  "files": [
-    "index.js",
-    "README.md",
-    "LICENSE",
-    "History.md"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-mustache.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT"
 }
