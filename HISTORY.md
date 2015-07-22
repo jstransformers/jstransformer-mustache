@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.1: 2015-07-22
+
+- Switched to `.compile()`
+- Added `options.tags` support
+
 ## v0.1.0: May 29th, 2015
 
 - Update Boilerplate

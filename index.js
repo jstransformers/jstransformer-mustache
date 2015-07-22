@@ -4,6 +4,10 @@ var mustache = require('mustache');
 
 exports.name = 'mustache';
 exports.outputFormat = 'html';
-exports.render = function (str, options, locals) {
-  return mustache.render(str, locals);
+
+exports.compile = function (str, options) {
+  mustache.parse(str, options.tags || null);
+  return function (locals) {
+    return mustache.render(str, locals);
+  };
 };

@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-mustache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mustache.js support for JSTransformers.",
   "keywords": [
     "jstransformer"
