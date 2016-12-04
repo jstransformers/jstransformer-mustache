@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.2: [Unreleased]
+
+- Update mustache to 2.3.0
+
 ## v0.1.1: 2015-07-22
 
 - Switched to `.compile()`
