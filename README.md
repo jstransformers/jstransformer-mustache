@@ -1,5 +1,7 @@
 # jstransformer-mustache
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-mustache.svg)](https://greenkeeper.io/)
+
 [Mustache](https://github.com/janl/mustache.js) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-mustache/master.svg)](https://travis-ci.org/jstransformers/jstransformer-mustache)
