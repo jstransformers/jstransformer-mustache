@@ -15,11 +15,11 @@
 ## API
 
 ```js
-var mustache = require('jstransformer')(require('jstransformer-mustache'));
+var mustache = require('jstransformer')(require('jstransformer-mustache'))
 
 var locals = {
 	name: "World"
-};
+}
 
 mustache.render('Hello, {{name}}!</h1>', locals).body
 //=> 'Hello, World!'
